@@ -1,0 +1,179 @@
+body{
+    background-image: url(img/website_background.png);
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav */
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 60px;
+}
+
+#logo{
+    transition: 1s;
+}
+
+#logo:hover{
+    opacity: 60%;
+    transition: 1s;
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 25%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    /* roboto font */
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav_link{
+    margin-left: 40%;
+}
+
+/* section one */
+.sec1{
+    display: flex;
+}
+
+#SNPS{
+    transition: 1s;
+    opacity: 100%;
+    border: black 100px;
+
+    border-radius: 50%;
+}
+
+#SNPS:hover{
+    transition: 1s;
+    opacity: 80%;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* section two */
+#history{
+    border-radius: 2%;
+
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    width: 450px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+
+    transition: 0.5s;
+}
+
+#history:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+#interests{
+    border-radius: 2%;
+
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    width: 450px;
+
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: 0.5s;
+}
+
+#interests:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+/* section three */
+.card{
+    height: auto;
+    width: 400px;
+    background-color: Black;
+    border-radius: 3%;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: 0.4s;
+}
+
+.card:hover{
+    background-color: rgb(61, 61, 61);
+    transition: 0.8s;
+}
+
+.container{
+    padding: 1.9%;
+    padding-top: 0;
+    color: white;
+}
+
+/* footer */
+.footer{
+    height: 30%;
+    width: 100%;
+    display: inline;
+}
+
+span{
+    padding: 10%;
+}
+
+span a{
+    color: black;
+}
+
+#feet{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer_link{
+    padding-left: 20%;
+    font-size: large;
+}
+
+.link_img{
+    transition: 1s;
+}
+
+.link_img:hover{
+    opacity: 60%;
+    transition: 0.6s;
+}
+
+.socials{
+    box-shadow: inset 0 0 0 0 black;
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.socials:hover{
+    box-shadow: inset 100px 0 0 0 white;
+    color: black;
+}
